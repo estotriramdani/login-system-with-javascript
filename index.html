@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="auth-login.js"></script>
+  </head>
+  <body>
+    <p id="validation"></p>
+    <input type="text" name="" id="username" /> <br />
+    <input type="password" name="" id="pw" /> <br />
+    <button id="btn">Login</button>
+    <script src="script.js"></script>
+
+    <h1>GeeksforGeeks</h1>
+
+    <p id="geeks"></p>
+
+    <!-- Script to check array include 
+        object or not -->
+    <script>
+      var obj = { geeks1: 10, geeks2: 12 };
+      var gfg = ["geeks1", "geeks2", obj];
+
+      /* Use JavaScript includes() method */
+      var num = gfg.includes(obj);
+
+      document.getElementById("geeks").innerHTML = num;
+    </script>
+  </body>
+</html>
